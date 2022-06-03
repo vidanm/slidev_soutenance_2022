@@ -1,7 +1,7 @@
 ---
 theme: academic
 coverAuthor: Vidan MURATI
-coverBackgroundUrl: https://i.ibb.co/GPvBRyZ/20210118-173031.jpg
+coverBackgroundUrl: https://i.ibb.co/wCmcks0/imageedit-1-7055029650.jpg
 highlighter: shiki
 lineNumbers: false
 info: |
@@ -68,27 +68,18 @@ h1 {
 </style>
 
 ---
+layout: image-left
+image: https://source.unsplash.com/collection/94734566/1920x1080
+---
+# Introduction
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
+Point sur la formation et mon apprentissage précédent
 
 |     |     |
 | --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+|<img class="w-80 rounded p-2" style="background-color:white;" src="https://i.ibb.co/6X624vk/ugelogo.png"/> |Université Gustave Eiffel |
+|<img class="w-20 rounded p-2" style="background-color:#E04B1B" src="https://dgb.construction/wp-content/uploads/2019/06/dgb.png"> | DGB Construction : Entreprise de gros oeuvre |
+|<img class="w-20 rounded p-2" style="background-color:white;" src="https://i.ibb.co/7Ck0LsX/logo-sodis.png"/> | Sodis : Filliale de distribution du groupe Madrigall  |
 
 ---
 layout: image-right
