@@ -1,29 +1,32 @@
 ---
-# try also 'default' to start simple
-theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+theme: academic
+coverAuthor: Vidan MURATI
+coverBackgroundUrl: https://i.ibb.co/GPvBRyZ/20210118-173031.jpg
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
+title: Rôle du développement applicatif dans les diverses activités d'une entreprise
 ---
 
 # Rôle du développement applicatif dans les diverses activités d'une entreprise
 
 Soutenance d'apprentissage
+
+<p float="right" class="rounded shadow" style="display:inline-block; text-align:center;  background-color:white;">
+<img class="w-18" src="https://i.ibb.co/7Ck0LsX/logo-sodis.png"/>
+</p>
+
+<p float="right" class="rounded shadow m-10" style="display:inline-block; background-color:white; v-align: bottom; padding:10px; text-align:center;">
+<img class="w-60" src="https://i.ibb.co/6X624vk/ugelogo.png"/>
+</p>
+
+
 
 <div class="pt-12">
   <span>
@@ -37,42 +40,15 @@ Soutenance d'apprentissage
   </span>
 </div>
 
-<div>
 
-</div>
-
-<!-- <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
-</div> -->
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
 ---
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+layout: table-of-contents
+---
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
