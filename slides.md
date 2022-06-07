@@ -69,7 +69,7 @@ h1 {
 
 ---
 layout: image-left
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://i.ibb.co/wy5LwZ8/imageedit-1-2004632380.jpg
 ---
 # Introduction
 
@@ -82,13 +82,13 @@ Point sur la formation et mon apprentissage précédent
 |<img class="w-20 rounded p-2" style="background-color:white;" src="https://i.ibb.co/7Ck0LsX/logo-sodis.png"/> | Sodis : Filliale de distribution du groupe Madrigall  |
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: two-cols
+image: https://i.ibb.co/Ht38c8y/sodis-diagramme.png
 ---
 
 # Code
 
-Use code snippets and get the highlighting directly![^1]
+
 
 ```ts {all|2|1-6|9|all}
 interface User {
@@ -107,7 +107,10 @@ function updateUser(id: number, update: User) {
 
 <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
+
+
+::right::
+![sodis_diagramme](https://i.ibb.co/Ht38c8y/sodis-diagramme.png)
 
 <style>
 .footnotes-sep {
