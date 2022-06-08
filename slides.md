@@ -50,6 +50,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: table-of-contents
 ---
 
+<h1> Table des matières </h1>
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/guide/syntax#embedded-styles
@@ -86,31 +87,15 @@ layout: two-cols
 image: https://i.ibb.co/Ht38c8y/sodis-diagramme.png
 ---
 
-# Code
+# Sodis et place dans le marché du livre
 
-
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = {...user, ...update}  
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-
+- Filiale de distribution du groupe Madrigall
+- environ 500 salariés
+- 12 000 clients actifs
+- 530 marques d'édition
 
 ::right::
-![sodis_diagramme](https://i.ibb.co/Ht38c8y/sodis-diagramme.png)
+![marche_livre](https://i.ibb.co/Ht38c8y/sodis-diagramme.png)
 
 <style>
 .footnotes-sep {
@@ -125,36 +110,11 @@ function updateUser(id: number, update: User) {
 </style>
 
 ---
+layout: image-left
+image: https://i.ibb.co/yh6YZyp/imageedit-1-2020222320.jpg
+---
 
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
+# Projets et organisation
 
 
 ---
