@@ -110,7 +110,7 @@ image: https://i.ibb.co/Ht38c8y/sodis-diagramme.png
 </style>
 
 ---
-layout: image-left
+layout: image-right
 image: https://i.ibb.co/yh6YZyp/imageedit-1-2020222320.jpg
 ---
 
