@@ -26,8 +26,6 @@ Soutenance d'apprentissage
 <img class="w-60" src="https://i.ibb.co/6X624vk/ugelogo.png"/>
 </p>
 
-
-
 <div class="pt-12">
   <span>
   Maître d'apprentissage Cedric TELLIEZ
@@ -85,6 +83,7 @@ Point sur la formation et mon apprentissage précédent
 ---
 layout: two-cols
 image: https://i.ibb.co/Ht38c8y/sodis-diagramme.png
+preload: false
 ---
 
 # Sodis et place dans le marché du livre
@@ -95,19 +94,16 @@ image: https://i.ibb.co/Ht38c8y/sodis-diagramme.png
 - 530 marques d'édition
 
 ::right::
-![marche_livre](https://i.ibb.co/Ht38c8y/sodis-diagramme.png)
 
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+<img
+      v-motion
+      :initial="{ x: 500, y: -100, opacity: 0.2, scale: 0.5, rotate: 0}"
+      :enter="{ x: 300, y: -100, opacity:1, scale: 0.5, rotate: 0,transition: { duration: 1000 }}"
+      class="absolute top-0 left-0 right-0 bottom-0"
+      src="https://i.ibb.co/Ht38c8y/sodis-diagramme.png"
+    />
+
+
 
 ---
 layout: image-right
